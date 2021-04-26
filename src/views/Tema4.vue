@@ -4,8 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        .h3
-          i.title-num 4
+        .h3.title-num 4
       .h3 Ingeniería de requisitos
     .row.mt-4
       .col-12
@@ -100,12 +99,9 @@
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
-  name: 'Tema2',
-  components: {
-    BannerInterno,
-  },
+  name: 'Tema4',
+  components: {},
 }
 </script>
 

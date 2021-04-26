@@ -4,8 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        .h3
-          i.title-num 3
+        .h3.title-num 3
       .h3 Requisitos
     .row.mt-4
       .col-lg-6.mb-5.mb-lg-0
@@ -131,12 +130,8 @@
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
   name: 'Tema2',
-  components: {
-    BannerInterno,
-  },
 }
 </script>
 

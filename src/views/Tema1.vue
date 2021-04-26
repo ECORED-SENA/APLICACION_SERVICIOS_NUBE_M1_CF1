@@ -4,8 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        .h3
-          i.title-num 1
+        .h3.title-num 1
       .h3 Ciclo de vida del software
     .row
       .col-12
@@ -323,12 +322,9 @@
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
   name: 'Tema1',
-  components: {
-    BannerInterno,
-  },
+  components: {},
   data: () => ({
     datosSlyder: [
       {
