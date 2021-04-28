@@ -318,7 +318,7 @@
             .h3.text-center Programación Extrema (XP).
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-1-13.png', alt='Texto que describa la imagen').w-75
-          figcaption.col-10.offset-1 #[strong Figura 5.] Modelo XP
+          figcaption.col-10.offset-1 #[strong Figura 6.] Modelo XP
 </template>
 
 <script>
