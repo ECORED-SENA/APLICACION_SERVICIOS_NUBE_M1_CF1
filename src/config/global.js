@@ -80,12 +80,12 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -185,18 +185,13 @@ export default {
         nombre: [
           'Lizeth Karina Manchego Suarez',
           'Luis Gabriel Urueta Alvarez',
+          'Jhon Jairo Urueta Alvarez',
         ],
         cargo: 'Desarrollo Front-End',
       },
       {
         centro: 'Centro industrial del diseño y la manufactura',
         regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Jhon Jairo Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
       },
     ],
     gestoresRepositorio: [
@@ -263,33 +258,33 @@ export default {
   ],
   glosario: [
     {
+      termino: 'Agil',
+      significado:
+        'comprende un conjunto de tareas o acciones que se utilizan para producir y mantener productos, así como para lograr los objetivos del proceso. La actividad incluye los procedimientos, estándares, políticas y objetivos para crear y modificar un conjunto de productos de trabajo.',
+    },
+    {
       termino: 'Ciclo de vida software',
       significado:
-        'Aplicación de metodologías para el desarrollo del sistema software [AECC, 1986].',
+        'aplicación de metodologías para el desarrollo del sistema software [AECC, 1986].',
     },
     {
       termino: 'Método',
       significado:
-        'Indica cómo construir técnicamente el software. Se incluyen técnicas de modelado y otras técnicas descriptivas.',
+        'indica cómo construir técnicamente el software. Se incluyen técnicas de modelado y otras técnicas descriptivas.',
     },
     {
       termino: 'Metodología',
-      significado: 'Colección de métodos para resolver un tipo de problemas.',
-    },
-    {
-      termino: 'Ágil',
-      significado:
-        'Comprende un conjunto de tareas o acciones que se utilizan para producir y mantener productos, así como para lograr los objetivos del proceso. La actividad incluye los procedimientos, estándares, políticas y objetivos para crear y modificar un conjunto de productos de trabajo.',
+      significado: 'colección de métodos para resolver un tipo de problemas.',
     },
     {
       termino: 'Requerimiento',
       significado:
-        'Se refiere a la petición que se hace de algo que se solicita.',
+        'se refiere a la petición que se hace de algo que se solicita.',
     },
     {
       termino: 'Requisito',
       significado:
-        'Condición que debe cumplir algo, en general el requisito cumple con lo que se requiere con el requerimiento.',
+        'condición que debe cumplir algo, en general el requisito cumple con lo que se requiere con el requerimiento.',
     },
   ],
   complementario: [

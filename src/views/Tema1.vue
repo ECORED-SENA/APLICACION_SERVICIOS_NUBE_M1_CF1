@@ -104,7 +104,7 @@
               .col-6
                 figure
                   img(src='@/assets/template/tema-1-8.png', alt='Texto que describa la imagen')
-          figcaption #[strong Figura 1.] Pasos en la algoritmia básica.      
+          figcaption #[strong Figura 1.] Modelo de cascada del ciclo de vida del desarrollo.      
       .row(titulo="Modelo espiral.").px-5.mx-2
         p.mt-4 Fue diseñado por Boehm en el año 1988 y se basa en una serie de ciclos repetitivos para ir ganando madurez en el producto final. El espiral se repite las veces que sea necesario hasta que el cliente o el usuario obtenga la satisfacción de sus necesidades.
         p.mt-3 En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones
@@ -115,11 +115,12 @@
                 figure(style="text-align: -webkit-center;")
                   img(src='@/assets/template/tema-1-9.png', alt='Texto que describa la imagen').d-none.d-lg-block.w-75
                   img(src='@/assets/template/tema-1-9.png', alt='Texto que describa la imagen').d-lg-none.w-100
+                  figcaption(style="font-weight: 400;").tarjeta--amarilla.mt-4 #[strong Nota.] Adaptada de Boehm (2018)
+
         figcaption #[strong Figura 2.] Modelo espiral del ciclo de vida del desarrollo. 
       .row(titulo="Modelo interactivo o por prototipos.").px-5.mx-2
         p.mt-4 Este modelo consiste en un procedimiento que permite al equipo de desarrollo diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
         .h6.mt-3 Objetivos
-        p.mt-3 Son un medio eficaz para aclarar los requisitos de los usuarios e identificar las características de un sistema que deben cambiarse o añadirse.  Mediante el prototipo se puede verificar la viabilidad del diseño de un sistema.
         .row
           .col-lg-5.border-y.offset-1.mt-3
             .col-sm.my-2
@@ -210,15 +211,15 @@
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta(style="width: 25px;")
-                  span 3
+                  span 4
                 | Daily Scrum.
               li.mt-4 
                 .lista-ol--cuadro__vineta(style="width: 25px;")
-                  span 4
+                  span 5
                 | Sprint Review.
               li.mt-4 
                 .lista-ol--cuadro__vineta(style="width: 25px;")
-                  span 5
+                  span 6
                 | Sprint Retrospective
         p.mt4 El Scrum consiste en realizar un análisis de los requerimientos del sistema (Product Backlog), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
         .h5.mt-4 Ventajas
@@ -271,6 +272,7 @@
             .h3.text-center Kanban.
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-1-12.png', alt='Texto que describa la imagen').w-75
+              figcaption(style="font-weight: 400;").tarjeta--amarilla.mt-4 #[strong Nota.] Adaptada de Anderson. 
           figcaption.col-10.offset-1 #[strong Figura 5.] Modelo ágil Kanban.
       .row(titulo="Modelo XP o programación extrema.").px-5.mx-2           
         p.mt-3 La programación extrema o eXtreme Programming (XP) es un enfoque de la ingeniería de software formulado por Kent Beck, autor del primer libro sobre este tema: Extreme Programming Explained: Embrace Change (1999). Esta metodología es adaptable según las necesidades y requerimientos a implementar, además, el cliente se encuentra involucrado en el proceso de desarrollo lo que hace que el producto pueda ser terminado en un menor tiempo.
@@ -318,6 +320,8 @@
             .h3.text-center Programación Extrema (XP).
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-1-13.png', alt='Texto que describa la imagen').w-75
+              figcaption(style="font-weight: 400;").tarjeta--amarilla.mt-4 #[strong Nota.] Adaptada de Muradas (2020). 
+              
           figcaption.col-10.offset-1 #[strong Figura 6.] Modelo XP
 </template>
 

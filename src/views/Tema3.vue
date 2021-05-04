@@ -85,7 +85,7 @@
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-3-5.png', alt='Texto que describa la imagen').w-100
           .col-12.col-md-7.align-self-center
-            p Son declaraciones de los servicios que debe proporcionar el sistema, de la manera en que este debe reaccionar a entradas particulares; o también pueden declarar explícitamente lo que el sistema no debe hacer.
+            p Son declaraciones, en lenguaje natural y en diagramas, de los servicios que se espera que el sistema proporcione y de las restricciones bajo las cuales debe funcionar.
 
       .row(titulo="Requerimientos de sistema.").px-5.mx-2
           .col-5.d-none.d-md-block
@@ -108,6 +108,7 @@
               img(src='@/assets/template/tema-3-8.png', alt='Texto que describa la imagen').w-100
           .col-12.col-md-7.align-self-center
             p Son restricciones de los servicios o funciones ofrecidos por el sistema. Incluyen restricciones de tiempo, sobre el proceso de desarrollo y estándares. Dentro de estos requerimientos se encuentra todo lo referente a la fiabilidad, el tiempo de respuesta y la capacidad de almacenamiento.
+    p.mt-5 En la siguiente tabla se presentan algunos ejemplos sobre requisitos funcionales y no funcionales.
     .tabla-a.mt-3 
       table
         caption Tabla 2/ Requisitos.

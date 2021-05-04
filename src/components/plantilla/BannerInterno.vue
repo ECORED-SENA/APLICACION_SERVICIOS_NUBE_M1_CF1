@@ -51,6 +51,7 @@ export default {
       height: 32px
       border-radius: 50%
       background-color: $color-banner-text
+      color: #79dce8
       position: relative
       i
         position: absolute
