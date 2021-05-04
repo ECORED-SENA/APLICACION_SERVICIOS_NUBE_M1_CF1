@@ -165,10 +165,14 @@ export default {
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
+        centro: 'Centro industrial del diseño y la manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
+        centro: 'Centro de comercio y servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: [
