@@ -223,17 +223,17 @@
                 | Sprint Retrospective
         p.mt4 El Scrum consiste en realizar un análisis de los requerimientos del sistema (Product Backlog), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
         .h5.mt-4 Ventajas
-        ul
-          li.px-4
+        ul.mt-4.mb-4
+          li
             i.lista-ul__vineta.color-amarillo
             | #[strong Gestión regular de las expectativas del usuario:] los usuarios participan y proponen soluciones
-          li.px-4.mt-2
+          li.mt-2
             i.lista-ul__vineta.color-amarillo
             | #[strong Resultados anticipados:] no es necesario esperar hasta el final para ver resultados
-          li.px-4.mt-2
+          li.mt-2
             i.lista-ul__vineta.color-amarillo
             | #[strong Flexibilidad y adaptación:] se adapta a cualquier contexto, área o sector.
-          li.px-4.mt-2
+          li.mt-2
             i.lista-ul__vineta.color-amarillo
             | #[strong Gestión sistemática de riesgos:] los problemas son gestionados en el mismo momento de su aparición.
         .row.mt-4

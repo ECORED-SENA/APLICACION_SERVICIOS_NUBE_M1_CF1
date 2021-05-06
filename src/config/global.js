@@ -132,19 +132,19 @@ export default {
           'Peter Emerson Pinchao Solis',
           'Zulema Yidney León Escobar',
         ],
-        cargo: 'Experto temático',
+        cargo: 'Expertos temáticos',
         centro: 'Centro de teleinformática y producción industrial',
         regional: 'Regional Cauca',
       },
       {
         nombre: ['Alix Cecilia Chinchilla Rueda', 'Oscar Absalón Guevara'],
-        cargo: 'Diseñador instruccional',
+        cargo: 'Diseñadores instruccionales',
         centro: 'Centro de gestión industrial',
         regional: 'Regional Bogotá',
       },
       {
         nombre: ['José Gabriel Ortiz Abella', 'Julia Isabel Roberto'],
-        cargo: 'Evaluador instruccional',
+        cargo: 'Evaluadores instruccionales',
         centro: 'Centro para la industria y la comunicación gráfica',
         regional: 'Regional Distrito Capital',
       },
@@ -153,12 +153,6 @@ export default {
         cargo: 'Revisión metodológica y pedagógica',
         centro: 'Centro para la industria de la comunicación gráfica',
         regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro industrial del diseño Y la manufactura',
-        regional: 'Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -192,6 +186,17 @@ export default {
           'Jhon Jairo Urueta Alvarez',
         ],
         cargo: 'Desarrollo Front-End',
+      },
+      {
+        nombre: [
+          'Jenny Paola Montillo',
+          'Jhana Johana Bustillo',
+          'María Isabel Román Rueda',
+          'Rafael Augusto Mantilla',
+          'Veimar Celis Meléndez',
+          'Yuli Marcela Gómez',
+        ],
+        cargo: 'Revisores de contenido',
       },
       {
         centro: 'Centro industrial del diseño y la manufactura',
