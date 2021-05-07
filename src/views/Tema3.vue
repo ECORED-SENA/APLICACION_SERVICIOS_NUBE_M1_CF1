@@ -48,7 +48,7 @@
     TabsA.mt-4
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Necesario.")
         h4 Necesario.
-        p Si se tiene alguna duda acerca de la necesidad del requerimiento, se puede preguntar #[strong “¿Qué sería lo peor de no incluirlo?”] Si no se encuentra una respuesta o cualquier consecuencia, entonces es probable que no sea un requerimiento necesario.
+        p Si se tiene alguna duda acerca de la necesidad del requerimiento, se puede preguntar #[strong “¿Qué sería lo peor de no incluirlo?”]. Si no se encuentra una respuesta o cualquier consecuencia, entonces es probable que no sea un requerimiento necesario.
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Completo.")
         h4 Completo.
         p Un requerimiento está completo si no necesita ampliar detalles en su redacción, es decir, si se proporciona la información suficiente para su comprensión.

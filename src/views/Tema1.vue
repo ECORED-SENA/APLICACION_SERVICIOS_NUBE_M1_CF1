@@ -107,7 +107,7 @@
           figcaption #[strong Figura 1.] Modelo de cascada del ciclo de vida del desarrollo.      
       .row(titulo="Modelo espiral.").px-5.mx-2
         p.mt-4 Fue diseñado por Boehm en el año 1988 y se basa en una serie de ciclos repetitivos para ir ganando madurez en el producto final. El espiral se repite las veces que sea necesario hasta que el cliente o el usuario obtenga la satisfacción de sus necesidades.
-        p.mt-3 En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones
+        p.mt-3 En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones.
         .col-12.mt-4.tarjeta.tarjeta--amarilla
             .row.my-3
               .col-3
@@ -118,7 +118,7 @@
                   figcaption(style="font-weight: 400;").tarjeta--amarilla.mt-4 #[strong Nota.] Adaptada de Boehm (2018)
 
         figcaption #[strong Figura 2.] Modelo espiral del ciclo de vida del desarrollo. 
-      .row(titulo="Modelo interactivo o por prototipos.").px-5.mx-2
+      .row(titulo="Modelo iterativo o por prototipos.").px-5.mx-2
         p.mt-4 Este modelo consiste en un procedimiento que permite al equipo de desarrollo diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
         .h6.mt-3 Objetivos
         .row
@@ -145,10 +145,10 @@
                   .lista-ol--cuadro__vineta(style="width: 25px;")
                     span 1
                   | Colecta y refinamiento de los requerimientos y proyecto rápido.
-                li.px-4
+                li.px-5
                   i.lista-ul__vineta.color-verde
                   | Análisis.
-                li.px-4
+                li.px-5
                   i.lista-ul__vineta.color-verde
                   | Especificación del prototipo.
                 li.mt-4 
@@ -167,13 +167,13 @@
                   .lista-ol--cuadro__vineta(style="width: 25px;")
                     span 5
                   | Refinamiento del prototipo.
-                li.px-4
+                li.px-5
                   i.lista-ul__vineta.color-amarillo
                   | Diseño técnico.
-                li.px-4
+                li.px-5
                   i.lista-ul__vineta.color-amarillo
                   | Programación y test.
-                li.px-4
+                li.px-5
                   i.lista-ul__vineta.color-amarillo
                   | Operación y mantenimiento.
                 li.mt-4 
@@ -184,7 +184,7 @@
             .col-8.offset-2.tarjeta--amarilla.py-4
               figure(style="text-align: -webkit-center;")
                 img(src='@/assets/template/tema-1-10.png', alt='Texto que describa la imagen').w-50
-            figcaption.col-8.offset-2 #[strong Figura 3.] Modelo de iterativo o por prototipos.
+            figcaption.col-8.offset-2 #[strong Figura 3.] Modelo iterativo o por prototipos.
 
     p.mt-3 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del software tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes: 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
@@ -226,10 +226,10 @@
         ul.mt-4.mb-4
           li
             i.lista-ul__vineta.color-amarillo
-            | #[strong Gestión regular de las expectativas del usuario:] los usuarios participan y proponen soluciones
+            | #[strong Gestión regular de las expectativas del usuario:] los usuarios participan y proponen soluciones.
           li.mt-2
             i.lista-ul__vineta.color-amarillo
-            | #[strong Resultados anticipados:] no es necesario esperar hasta el final para ver resultados
+            | #[strong Resultados anticipados:] no es necesario esperar hasta el final para ver resultados.
           li.mt-2
             i.lista-ul__vineta.color-amarillo
             | #[strong Flexibilidad y adaptación:] se adapta a cualquier contexto, área o sector.

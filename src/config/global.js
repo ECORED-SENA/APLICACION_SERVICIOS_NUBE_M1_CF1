@@ -267,12 +267,12 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Agil',
+      termino: 'Ágil',
       significado:
         'comprende un conjunto de tareas o acciones que se utilizan para producir y mantener productos, así como para lograr los objetivos del proceso. La actividad incluye los procedimientos, estándares, políticas y objetivos para crear y modificar un conjunto de productos de trabajo.',
     },
     {
-      termino: 'Ciclo de vida software',
+      termino: 'Ciclo de vida de software',
       significado:
         'aplicación de metodologías para el desarrollo del sistema software [AECC, 1986].',
     },
@@ -283,7 +283,7 @@ export default {
     },
     {
       termino: 'Metodología',
-      significado: 'colección de métodos para resolver un tipo de problemas.',
+      significado: 'colección de métodos para resolver un tipo de problema.',
     },
     {
       termino: 'Requerimiento',
