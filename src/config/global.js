@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Ingeniería de requisitos',
     descripcionCurso:
-      'En este componente formativo se abordan los saberes de ingeniería de requisitos: ciclo de vida del software fases y objetivos, modelos, características, caracterización de la fase de definición de requisitos y herramientas para el uso de captura de requisitos que se usan para el desarrollo del software.',
+      'En este componente formativo se abordan los saberes de ingeniería de requisitos: ciclo de vida del software, fases y objetivos, modelos, características, caracterización de la fase de definición de requisitos y herramientas para el uso de captura de requisitos que se usan para el desarrollo del software.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     programaFormacion: 'Construcción de requisitos del software',
