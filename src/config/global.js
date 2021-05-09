@@ -293,7 +293,7 @@ export default {
     {
       termino: 'Requisito',
       significado:
-        'condición que debe cumplir algo, en general el requisito cumple con lo que se requiere con el requerimiento.',
+        'condición que debe cumplir algo, en general el requisito cumple con lo que se requiere en el requerimiento.',
     },
   ],
   complementario: [
