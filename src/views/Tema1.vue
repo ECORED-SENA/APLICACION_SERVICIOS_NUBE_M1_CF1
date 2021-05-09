@@ -53,7 +53,7 @@
       .col-lg-6
         p  La ISO/IEC 12207 Information Technology / Software Life Cycle Processes señala que es: 
         p.mt-4 Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto de software, abarcando la vida del sistema desde la definición de los requisitos hasta la finalización de su uso (2008).
-    p.mt-5 Existen modelos preestablecidos con los cuales se pude elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar software.        
+    p.mt-5 Existen modelos preestablecidos con los cuales se puede elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar software.        
     .row.mt-5
       .col-12
         .row
@@ -189,7 +189,7 @@
     p.mt-3 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del software tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes: 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
       .row(titulo="Modelo Scrum.").px-5.mx-2  
-        p.mt-3 Este modelo se basa en el desarrollo incremental, es decir conforme pasen las fases y la iteración mayor será el tamaño del proyecto que se está desarrollando.
+        p.mt-3 Este modelo se basa en el desarrollo incremental, es decir, conforme pasen las fases y la iteración, mayor será el tamaño del proyecto que se está desarrollando.
         p.mt-3 Los procesos que utiliza son:
         .col-12.col-lg-5.mt-3
           .col-sm.my-2
@@ -348,7 +348,7 @@ export default {
       {
         titulo: 'FASE DISEÑO:',
         texto:
-          'En esta fase se estudian posibles opciones de implementación para el software que hay que construir, estructura general del mismo. <br> <br> <strong> Objetivos: </strong> Identificar soluciones tecnológicas, asignar recursos materiales, proponer identificar y seleccionar, establecer métodos de validación, ajustar especificaciones. ',
+          'En esta fase se estudian posibles opciones de implementación para el software que hay que construir, estructura general del mismo. <br> <br> <strong> Objetivos: </strong> Identificar soluciones tecnológicas, asignar recursos materiales, proponer, identificar, seleccionar, establecer métodos de validación y ajustar especificaciones. ',
         imagen: require('@/assets/template/tema-1-15.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
