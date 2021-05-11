@@ -13,7 +13,7 @@
       .col-lg-6.align-self-center
         p Los requisitos comunican las expectativas de los consumidores de productos software; de otra parte, los requisitos pueden ser obvios o estar ocultos, conocidos o desconocidos, esperados o inesperados, desde el punto de vista del cliente.
     .titulo-segundo.mt-5
-      #t_3_1.h4 3.1   Importancia de los requisitos.
+      #t_3_1.h4 3.1   Importancia de los requisitos
     p.mt-4 Los requisitos cobran importancia dentro del ciclo de vida del software, puesto que:
     .row.mt-4
       .col-12.col-md-8
@@ -46,48 +46,48 @@
           img(src='@/assets/template/tema-3-4.png', alt='Texto que describa la imagen').w-100
     p.mt-5 En la siguiente figura se pueden revisar las características que los requisitos deben cumplir de acuerdo con Pfleeger (2002).
     TabsA.mt-4
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Necesario.")
-        h4 Necesario.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Necesario")
+        h4 Necesario
         p Si se tiene alguna duda acerca de la necesidad del requerimiento, se puede preguntar #[strong “¿Qué sería lo peor de no incluirlo?”]. Si no se encuentra una respuesta o cualquier consecuencia, entonces es probable que no sea un requerimiento necesario.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Completo.")
-        h4 Completo.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Completo")
+        h4 Completo
         p Un requerimiento está completo si no necesita ampliar detalles en su redacción, es decir, si se proporciona la información suficiente para su comprensión.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Consistente.")
-        h4 Consistente.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Consistente")
+        h4 Consistente
         p Un requerimiento es consistente si no es contradictorio con otro requerimiento.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Correcto.")
-        h4 Correcto.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Correcto")
+        h4 Correcto
         p Acuerdo entre dos partes. Contiene una sola idea
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Factible.")
-        h4 Factible.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Factible")
+        h4 Factible
         p El requerimiento deberá de ser totalmente factible y dentro de presupuesto, calendario y otras restricciones, si se tiene alguna duda de su factibilidad, hay que investigar, generar pruebas de concepto para saber su complejidad y factibilidad, si aun así el requerimiento es no factible, hay que revisar la visión del sistema y replantear el requerimiento.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Modificable.")
-        h4 Modificable.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Modificable")
+        h4 Modificable
         p Los cambios en los requisitos deben hacerse de manera sistemática, y debe tenerse en cuenta su impacto en otros requisitos.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Priorizado.")
-        h4 Priorizado.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Priorizado")
+        h4 Priorizado
         p Categorizar el requerimiento nos ayuda a saber el grado de necesidad del mismo: esencial/crítico, deseado, opcional verificable.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Verificable.")
-        h4 Verificable.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Verificable")
+        h4 Verificable
         p Si un requerimiento no se puede comprobar, entonces, ¿cómo se sabe si se cumplió con él o no? Debe ser posible verificarlo ya sea por inspección, análisis de prueba o demostración. Cuando se escriba un requerimiento, se deberán determinar los criterios de aceptación.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Rastreable.")
-        h4 Rastreable.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Rastreable")
+        h4 Rastreable
         p La especificación se debe organizar de tal forma que cada función del sistema se pueda rastrear hasta su conjunto de requerimientos correspondiente. Facilita las pruebas y la validación del diseño.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Claro.")
-        h4 Claro.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Claro")
+        h4 Claro
         p Un requerimiento es conciso si es fácil de leer y entender, su redacción debe ser simple y clara para quienes lo consulten en un futuro.
     .titulo-segundo.mt-5
       #t_3_2.h4 3.2   Clasificación
     p.mt-4 Los requerimientos se pueden definir de distintas maneras, la primera clasificación se encuentra relacionada con el nivel de descripción con la que cuentan estos y dentro de este tipo de clasificación se encuentran:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
-      .row(titulo="Requerimientos de usuario.").px-5.mx-2
+      .row(titulo="Requerimientos de usuario").px-5.mx-2
           .col-5.d-none.d-md-block
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-3-5.png', alt='Texto que describa la imagen').w-100
           .col-12.col-md-7.align-self-center
             p Son declaraciones, en lenguaje natural y en diagramas, de los servicios que se espera que el sistema proporcione y de las restricciones bajo las cuales debe funcionar.
 
-      .row(titulo="Requerimientos de sistema.").px-5.mx-2
+      .row(titulo="Requerimientos de sistema").px-5.mx-2
           .col-5.d-none.d-md-block
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-3-6.png', alt='Texto que describa la imagen').w-100
@@ -95,14 +95,14 @@
             p Estos requerimientos establecen con detalle las funciones, servicios y restricciones operativas del sistema. El documento de requerimientos del sistema deberá ser preciso, y definir exactamente lo que se va a desarrollar.
     p.mt-4 En la siguiente clasificación se observa la que se da a los requerimientos del sistema, la cual se encuentra dividida con base en lo que se va a describir, las clasificaciones son:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
-      .row(titulo="Requerimientos funcionales.").px-5.mx-2
+      .row(titulo="Requerimientos funcionales").px-5.mx-2
           .col-5.d-none.d-md-block
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-3-7.png', alt='Texto que describa la imagen').w-100
           .col-12.col-md-7.align-self-center
             p Son declaraciones de los servicios que debe proporcionar el sistema, de la manera en que este debe reaccionar a entradas particulares; o también pueden declarar explícitamente lo que el sistema no debe hacer.
 
-      .row(titulo="Requerimientos no funcionales:").px-5.mx-2
+      .row(titulo="Requerimientos no funcionales").px-5.mx-2
           .col-5.d-none.d-md-block
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-3-8.png', alt='Texto que describa la imagen').w-100

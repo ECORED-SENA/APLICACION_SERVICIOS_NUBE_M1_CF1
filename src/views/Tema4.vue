@@ -53,7 +53,7 @@
       .h6 Etapas de la ingeniería de requisitos
       p.mt-3 Hay cuatro (4) etapas en un proceso usual de ingeniería de requisitos y que son utilizadas para el desarrollo de un producto único, a saber: elicitación, análisis, especificación y validación de los requisitos.
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul").mt-4
-      .row(titulo="Elicitación.").px-4
+      .row(titulo="Elicitación").px-4
         p Actividad involucrada en el descubrimiento de los requisitos del sistema. Aquí los analistas deben trabajar junto con el cliente para descubrir el problema que el sistema debe resolver, los diferentes servicios que el sistema debe prestar y las restricciones que se pueden presentar.
         p.mt-3 Los principales objetivos que se deben alcanzar son los siguientes:
         .col-sm.mb-5.mb-sm-0.mt-3
@@ -76,7 +76,7 @@
                   i.fas.fa-angle-right.color-texto.text-center
                 .col-8
                   p Consensuar los requisitos entre los propios clientes y usuarios hasta obtener una visión común de los mismos. 
-      .row(titulo="Análisis.").px-4
+      .row(titulo="Análisis").px-4
         p Sobre la base de la obtención realizada previamente, comienza esta fase la cual tiene como propósito descubrir problemas con los requisitos del sistema identificados hasta el momento, para ello se basa en los siguientes objetivos:
         .col-sm.mb-5.mb-sm-0.mt-3
           ul.lista-ul
@@ -93,9 +93,9 @@
                 .col-8
                   p Profundizar en el conocimiento del dominio del problema puede facilitar el proceso de construir un producto útil para clientes y usuarios (Durán, 2000).
         p.mt-3 En esta fase, el analista proporciona un sistema de retroalimentación que refina el entendimiento conseguido en la etapa de obtención.
-      .row(titulo="Especificación.").px-4
+      .row(titulo="Especificación").px-4
         p Aquí se documentan los requisitos acordados con el cliente, en un nivel apropiado de detalle. En la práctica, esta etapa se realiza conjuntamente con el análisis, por lo que se puede decir que la especificación es el “pasar en limpio” el análisis realizado previamente aplicando técnicas y/o estándares de documentación, como la notación UML (Lenguaje de Modelado Unificado), que es un estándar para el modelado orientado a objetos, por lo que los casos de uso y la obtención de requisitos basada en los casos de uso se utilizan cada vez más para la obtención de requisitos.
-      .row(titulo="Validación.").px-4
+      .row(titulo="Validación").px-4
         p Por último, la validación garantiza que los requisitos, una vez analizados y resueltos los posibles conflictos, correspondan realmente a las necesidades de clientes y usuarios, para evitar que, a pesar de que el producto final sea técnicamente correcto, no sea satisfactorio. La validación puede llevar al analista a reescribir algunas especificaciones de requisitos y, en otros casos, a obtener nuevos, producto de la aparición de necesidades que hasta entonces estaban ocultas, para volver a evaluar el análisis inicial, o para corregir y perfeccionar el conjunto de requisitos documentados.
 </template>
 

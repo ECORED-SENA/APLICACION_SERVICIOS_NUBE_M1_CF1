@@ -74,7 +74,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Fase de definición de requisitos',
+        titulo: 'Ingeniería de requisitos',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -115,7 +115,7 @@ export default {
   },
   creditos: {
     liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
+      nombre: 'María Camila García Santamaría',
       cargo: 'Líder del equipo',
     },
     contenidoInstruccional: [
@@ -126,19 +126,14 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: [
-          'Henry Eduardo Bastidas Paruma',
-          'Jonathan Guerrero Astaiza',
-          'Peter Emerson Pinchao Solis',
-          'Zulema Yidney León Escobar',
-        ],
+        nombre: ['Jonathan Guerrero Astaiza', 'Zulema Yidney León Escobar'],
         cargo: 'Expertos temáticos',
         centro: 'Centro de teleinformática y producción industrial',
         regional: 'Regional Cauca',
       },
       {
-        nombre: ['Alix Cecilia Chinchilla Rueda', 'Oscar Absalón Guevara'],
-        cargo: 'Diseñadores instruccionales',
+        nombre: ['Alix Cecilia Chinchilla Rueda'],
+        cargo: 'Diseñadora Instruccional',
         centro: 'Centro de gestión industrial',
         regional: 'Regional Bogotá',
       },
@@ -149,8 +144,8 @@ export default {
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Revisión metodológica y pedagógica',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Revisión de estilo',
         centro: 'Centro para la industria de la comunicación gráfica',
         regional: 'Regional Distrito Capital',
       },
@@ -169,34 +164,16 @@ export default {
         regional: 'Regional Tolima',
       },
       {
-        nombre: [
-          'Camilo Andrés Villamizar Lizcano',
-          'José Jaime Luis Tang Pinzón',
-          'Juan Daniel Polanco Muñoz',
-          'Nelson Iván Vera Briceño',
-          'Wilson Andres Arenales Cáceres',
-          'Yuly Andrea Rey Quiñonez',
-        ],
+        nombre: ['Luis Gabriel Urueta Álvarez', 'Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: [
-          'Lizeth Karina Manchego Suarez',
-          'Luis Gabriel Urueta Alvarez',
-          'Jhon Jairo Urueta Alvarez',
-        ],
+        nombre: ['Lizeth Karina Manchego Suarez'],
         cargo: 'Desarrollo Front-End',
       },
       {
-        nombre: [
-          'Jenny Paola Montillo',
-          'Jhana Johana Bustillo',
-          'María Isabel Román Rueda',
-          'Rafael Augusto Mantilla',
-          'Veimar Celis Meléndez',
-          'Yuli Marcela Gómez',
-        ],
-        cargo: 'Revisores de contenido',
+        nombre: ['Jhana Johana Bustillo'],
+        cargo: 'Revisora de Contenidos',
       },
       {
         centro: 'Centro industrial del diseño y la manufactura',

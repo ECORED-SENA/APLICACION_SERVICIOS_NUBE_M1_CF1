@@ -12,10 +12,10 @@
       .bloque-texto-a.p-4.p-md-5.mb-5.mt-5
         .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
-            .h2.mb-0 Si bien existen diferentes ciclos de desarrollo de software, la normativa ISO/IEC/IEEE 12207:2017 establece que: 
+            .h2.mb-0 Si bien existen diferentes ciclos de desarrollo de software, la normativa ISO/IEC/IEEE 12207:2017 establece: 
           .col-lg-8
             .bloque-texto-a__texto.p-4
-              p [Es] un marco común para los procesos del ciclo de vida de los programas informáticos, con una terminología bien definida, a la que pueda remitirse la industria del software. #[strong Contiene procesos, actividades y tareas aplicables durante la adquisición, el suministro, el desarrollo, el funcionamiento, el mantenimiento o la eliminación de sistemas, productos y servicios informáticos]. Estos procesos del ciclo de vida se llevan a cabo mediante la participación de los interesados, con el objetivo final de lograr la satisfacción del cliente (s.p.).
+              p Un marco común para los procesos del ciclo de vida de los programas informáticos, con una terminología bien definida, a la que pueda remitirse la industria del software. #[strong Contiene procesos, actividades y tareas aplicables durante la adquisición, el suministro, el desarrollo, el funcionamiento, el mantenimiento o la eliminación de sistemas, productos y servicios informáticos]. Estos procesos del ciclo de vida se llevan a cabo mediante la participación de los interesados, con el objetivo final de lograr la satisfacción del cliente (s.p.).
     p.mt-5 A continuación, se indican cuáles son los elementos que integran un ciclo de vida:
     .row.mt-5
       .col-12
@@ -37,7 +37,7 @@
               p.mt-3 Son los productos intermedios que generan las fases. Pueden ser materiales o inmateriales (documentos, software). Los entregables permiten evaluar la marcha del proyecto mediante comprobaciones de su adecuación o no a los requisitos funcionales y de condiciones de realización previamente establecido.
     
     .titulo-segundo.mt-5
-      #t_1_1.h4 1.1   Fases.
+      #t_1_1.h4 1.1   Fases
     p.mt-5 Las fases del modelo de ciclo del software son: planificación, análisis, diseño, implementación, pruebas y mantenimiento, las cuales se describen en la siguiente figura.
     SlyderB.mb-5(:datos="datosSlyder").mt-5
 
@@ -95,7 +95,7 @@
 
     p.mt-5 A continuación, se revisan los modelos del paradigma tradicional más utilizados.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
-      .row(titulo="Modelo en cascada.").px-5.mx-2
+      .row(titulo="Modelo en cascada").px-5.mx-2
           p.mt-4 Uno de los primeros modelos de ciclo de vida del desarrollo fue establecido por W. Royce en 1970 y es conocido como el “modelo de cascada” (waterfall model). 
           p.mt-3 En su concepción básica, cada una de las actividades genera, como salidas, productos y modelos que son utilizados como entradas para el proceso subsiguiente; esto supone que una actividad debe terminarse (por lo menos, en algún grado) para empezar la siguiente.
           .col-12.mt-3.tarjeta.tarjeta--amarilla
@@ -105,7 +105,7 @@
                 figure
                   img(src='@/assets/template/tema-1-8.png', alt='Texto que describa la imagen')
           figcaption #[strong Figura 1.] Modelo de cascada del ciclo de vida del desarrollo.      
-      .row(titulo="Modelo espiral.").px-5.mx-2
+      .row(titulo="Modelo espiral").px-5.mx-2
         p.mt-4 Fue diseñado por Boehm en el año 1988 y se basa en una serie de ciclos repetitivos para ir ganando madurez en el producto final. El espiral se repite las veces que sea necesario hasta que el cliente o el usuario obtenga la satisfacción de sus necesidades.
         p.mt-3 En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones.
         .col-12.mt-4.tarjeta.tarjeta--amarilla
@@ -118,7 +118,7 @@
                   figcaption(style="font-weight: 400;").tarjeta--amarilla.mt-4 #[strong Nota.] Adaptada de Boehm (2018)
 
         figcaption #[strong Figura 2.] Modelo espiral del ciclo de vida del desarrollo. 
-      .row(titulo="Modelo iterativo o por prototipos.").px-5.mx-2
+      .row(titulo="Modelo iterativo o por prototipos").px-5.mx-2
         p.mt-4 Este modelo consiste en un procedimiento que permite al equipo de desarrollo diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
         .h6.mt-3 Objetivos
         .row
@@ -142,7 +142,7 @@
             .col-sm.my-2
               ol.lista-ol--cuadro
                 li 
-                  .lista-ol--cuadro__vineta(style="width: 25px;")
+                  .lista-ol--cuadro__vineta.wtg-1
                     span 1
                   | Colecta y refinamiento de los requerimientos y proyecto rápido.
                 li.px-5
@@ -160,7 +160,7 @@
                     span 3
                   | Construcción del prototipo.
                 li.mt-4 
-                  .lista-ol--cuadro__vineta(style="width: 25px;")
+                  .lista-ol--cuadro__vineta.wtg-4
                     span 4
                   | Evaluación del prototipo por el cliente.
                 li.mt-4 
@@ -188,7 +188,7 @@
 
     p.mt-3 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del software tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes: 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
-      .row(titulo="Modelo Scrum.").px-5.mx-2  
+      .row(titulo="Modelo Scrum").px-5.mx-2  
         p.mt-3 Este modelo se basa en el desarrollo incremental, es decir conforme pasen las fases y la iteración mayor será el tamaño del proyecto que se está desarrollando.
         p.mt-3 Los procesos que utiliza son:
         .col-12.col-lg-5.mt-3
@@ -206,7 +206,7 @@
                 .lista-ol--cuadro__vineta(style="width: 25px;")
                   span 3
                 | Sprint Planning Meeting.
-        .col-12.col-lg-5.mt-3
+        .col-12.col-lg-5.mt-3.mb-4
           .col-sm.my-2
             ol.lista-ol--cuadro
               li 
@@ -221,7 +221,7 @@
                 .lista-ol--cuadro__vineta(style="width: 25px;")
                   span 6
                 | Sprint Retrospective
-        p.mt4 El Scrum consiste en realizar un análisis de los requerimientos del sistema (Product Backlog), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
+        p.m-t4 El Scrum consiste en realizar un análisis de los requerimientos del sistema (Product Backlog), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
         .h5.mt-4 Ventajas
         ul.mt-4.mb-4
           li
@@ -241,7 +241,7 @@
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/template/tema-1-11.png', alt='Texto que describa la imagen').w-75
           figcaption.col-10.offset-1 #[strong Figura 4.] Modelo ágil Scrum.
-      .row(titulo="Modelo Kanban.").px-5.mx-2 
+      .row(titulo="Modelo Kanban").px-5.mx-2 
         p.mt-3 David J. Anderson (reconocido como el líder de pensamiento de la adopción del Lean/Kanban para el trabajo de conocimiento), formuló el método Kanban como una aproximación al proceso evolutivo e incremental y al cambio de sistemas para las organizaciones de trabajo. El método está enfocado en llevar a cabo las tareas pendientes y los principios más importantes pueden ser divididos en cuatro principios básicos y seis prácticas. 
         p.mt-3 El modelo Kanban es uno de los modelos más visuales de las metodologías ágiles; este consiste en la creación de un tablero con etiquetas, donde se seccionan cada una de las fases de su desarrollo, además se clasifican de acuerdo con los equipos de trabajo y se les asignan objetivos a corto, mediano y largo plazo.
         p.mt-3 Mediante la metodología japonesa Kanban se:
@@ -274,7 +274,7 @@
               img(src='@/assets/template/tema-1-12.png', alt='Texto que describa la imagen').w-75
               figcaption(style="font-weight: 400;").tarjeta--amarilla.mt-4 #[strong Nota.] Adaptada de Anderson. 
           figcaption.col-10.offset-1 #[strong Figura 5.] Modelo ágil Kanban.
-      .row(titulo="Modelo XP o programación extrema.").px-5.mx-2           
+      .row(titulo="Modelo XP o programación extrema").px-5.mx-2           
         p.mt-3 La programación extrema o eXtreme Programming (XP) es un enfoque de la ingeniería de software formulado por Kent Beck, autor del primer libro sobre este tema: Extreme Programming Explained: Embrace Change (1999). Esta metodología es adaptable según las necesidades y requerimientos a implementar, además, el cliente se encuentra involucrado en el proceso de desarrollo lo que hace que el producto pueda ser terminado en un menor tiempo.
         p.mt-3 Características principales de la programación extrema:
         .col-12.col-lg-5.mt-3
